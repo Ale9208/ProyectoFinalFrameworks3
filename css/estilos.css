@@ -1,4 +1,11 @@
 body{
+	background: url(../img/fondo.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.main-container{
 	width: 95%;
 	margin: 0 auto;
 }
@@ -20,7 +27,8 @@ body{
 	font-size: 30px;
 	padding-bottom: 30%;
 	padding-top:30%;
-	padding-right: 80%;
+	padding-right: 50%;
+	color: #cb2020;
 }
 
 @media (min-width: 993px) and (max-width:1800px){
@@ -45,4 +53,7 @@ body{
 
 .destinos{
 	margin-top: 5%;
+}
+.perfil{
+	text-decoration: underline;
 }
