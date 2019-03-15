@@ -62,3 +62,19 @@ body{
 .foto{
 	margin-top: 10%;
 }
+
+.flecha{
+	color:#212121;
+}
+
+.enviar{
+	background-color: white;
+	color:#212121;
+	font-weight: 5px;
+}
+
+.innercont{
+	margin: 1%;
+	padding: 3%;
+	background-color: #212121;
+}

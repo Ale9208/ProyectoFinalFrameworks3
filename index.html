@@ -17,10 +17,10 @@
 				<div class="row">
 					<div class="s12 col">
 							<div  class="nav-wrapper">
-									<a href="" class="btn"><i class="material-icons left">airplanemode_active</i>Inicio</a>
-									<a href="" class="btn"><i class="material-icons left">grade</i>Viajes Exclusivos</a>
-									<a href="" class="btn"><i class="material-icons left">touch_app</i>Mejores Viajes</a>
-									<a href="" class="btn"><i class="material-icons left">monetization_on</i>Tours Económicos</a>
+									<a href="" class="btn waves-effect waves-light"><i class="material-icons left">airplanemode_active</i>Inicio</a>
+									<a href="" class="btn waves-effect waves-light"><i class="material-icons left">grade</i>Viajes Exclusivos</a>
+									<a href="" class="btn waves-effect waves-light"><i class="material-icons left">touch_app</i>Mejores Viajes</a>
+									<a href="" class="btn waves-effect waves-light"><i class="material-icons left">monetization_on</i>Tours Económicos</a>
 							</div>
 					</div>
 					<div class="s12 col">
@@ -78,13 +78,15 @@
 
 
 		</div>
-		<div class="row">
-			<div class="l8 m8 s12 col card-panel #212121 grey darken-4 white-text">
+		<div class="row">	
+			<div class="l8 m8 s12 col white-text">
+				<div class="innercont">
 				<div class="s12 col">
 					<h2 class="flow-text">Los países mas visitados del mundo</h2>
 				</div>
 				<div class="s12 col">
-					<p>fecha y hora</p>
+					<p class="chip">15/07/2018</p>
+					<p class="chip">3:53pm</p>
 				</div>
 				<div class="row">
 					<div class="s12 m12 l6 col">
@@ -97,13 +99,34 @@
 					<div class="s12 col">
 						<p>La historia de España engloba el período comprendido desde la primera colonización humana en la prehistoria en la península ibérica hasta la actualidad. Si bien la formación del estado español dataría de finales de la Edad Media con la unión y la invasión (caso de Navarra y Granada) de los reinos que la acabarían formando: Castilla, León, Aragón, Navarra y el Reino de Granada, y es a partir de ese momento que empieza a conocerse como un estado único hasta la actualidad.</p>
 					</div>
-					<div class="s12 col input-field">
+				<div class="row">
+					<div class="l6 m6 s12 col input-field">
 						<i class="fas fa-user prefix"></i>
-						<textarea class="materialize-textarea" placeholder="Comenta"></textarea>
+						<input type="text" name="Nombre" id="Nombre">
+						<label for="Nombre">Nombre</label>
+					</div>
+					<div class="l6 m6 s12 col input-field">
+						<i class="fas fa-envelope-open prefix"></i>
+						<input type="email" name="correo" id="correo">
+						<label for="correo">Correo</label>
+					</div>
+				</div>
+					<div class="s12 col input-field">
+						<i class="fas fa-sign-out-alt prefix"></i>
+						<textarea class="materialize-textarea" id="coment1"></textarea>
+						<label for="coment1">Comenta</label>
+					</div>
+					<div class="s6 offset-s6 col input-field">
+						<button class="btn-large right enviar waves-effect waves-light"><i class="fas fa-arrow-circle-right left flecha"></i>Enviar</button>
 					</div>
 				</div>
 
 				<hr>
+
+				<div class="s12 col">
+					<p class="chip">31/12/2018</p>
+					<p class="chip">5:30am</p>
+				</div>
 
 				<div class="row">
 					<div class="s12 m12 l6 col">
@@ -118,15 +141,32 @@
 						</br>
 						En las guerras hegemónicas europeas Francia intentó imponerse varias veces y por ello en distintas épocas hubo de enfrentarse a casi toda Europa (por separado, o junta como contrapeso al expansionismo francés). Así sucedió con Carlos I «El Magno» en el siglo IX, Luis XIV «El Rey Sol» en el siglo XVII, y Napoleón I Bonaparte «El Grande» en el siglo XIX.</p>
 					</div>
+					<div class="row">
+						<div class="l6 m6 s12 col input-field">
+							<i class="fas fa-user prefix"></i>
+							<input type="text" name="Nombre" id="Nombre">
+							<label for="Nombre">Nombre</label>
+						</div>
+						<div class="l6 m6 s12 col input-field">
+							<i class="fas fa-envelope-open prefix"></i>
+							<input type="email" name="correo" id="correo">
+							<label for="correo">Correo</label>
+						</div>
+					</div>
 					<div class="s12 col input-field">
-						<i class="fas fa-user prefix"></i>
-						<textarea class="materialize-textarea" placeholder="Comenta"></textarea>
+						<i class="fas fa-sign-out-alt prefix"></i>
+						<textarea class="materialize-textarea" id="coment2"></textarea>
+						<label for="coment2">Comenta</label>
+					</div>
+					<div class="s6 offset-s6 col input-field">
+						<button class="btn-large right enviar waves-effect waves-light"><i class="fas fa-arrow-circle-right left flecha"></i>Enviar</button>
+					</div>
 					</div>
 				</div>
-
 			</div>
 
-			<div class="l4 m4 s12 col autor card-panel #212121 grey darken-4 white-text">
+			<div class="l4 m4 s12 col autor white-text">
+				<div class="innercont">
 				<div class="row">
 					<div class="s12 col">
 						<img src="img/autor.jfif" class="circle responsive-img foto">
@@ -140,6 +180,7 @@
 						<p>"Indiscutiblemente somos la agencia de viajes que ofrece la mejor calidad a nuestros clientes, tenemos el equipo necesario para poder asegurar el nivel de servicio que ofrecemos a cada uno de nuestro clientes." </br></br> Palabras de Adam Levine nuestro CEO y autor intelectual de la agencia de viajes, experimentado hombre de negocios con basto conocimiento del mundo y todo lo referente a paquetes de viajes en diversos destinos, contemplando todos los presupuestos, y las necesidades requeridas por cada persona, con 30 años de trayectoria en el negocio, es considerado el Guru de los viajes en America Latina</p>
 						
 					</div>
+				</div>
 				</div>
 			</div>
 			
